@@ -3,7 +3,19 @@
 ---
 
 ## Phases of Implementation
-
+- [Phase 1: ETL with Power Query](#phase-1-etl-with-power-query)
+- [Phase 2: Data Modelling](#phase-2-data-modelling)
+- [Phase 3: Measures & Calculated Columns](#phase-3-measures--calculated-columns)
+  - [Calculated Columns](#calculated-columns)
+  - [Measures](#measures)
+- [Phase 4: Dashboard Design](#phase-4-dashboard-design)
+  - [Color Pallet](#color-pallet)
+  - [I. Glance at KPIs](#i-glance-at-kpis)
+  - [II. Glance at Cities](#ii-glance-at-cities)
+  - [III. Gaze at KPI Trends](#iii-gaze-at-kpi-trends)
+  - [IV. Gaze at Customers](#iv-gaze-at-customers)
+  - [V. Gaze at Products](#v-gaze-at-products)
+  - [VI. Gaze at Customer Lead Times](#vi-gaze-at-customer-lead-times)
 
 ---
 
