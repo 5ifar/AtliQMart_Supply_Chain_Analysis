@@ -127,3 +127,78 @@ This column denotes the type of product.
     - `KPIs vs City Title = SWITCH(SELECTEDVALUE('Base KPIs Parameter'[Base KPIs Parameter Order]), 0, "OT %", 1, "IF %", 2, "OTIF %") & " vs Target by City"`
     - `CC Delivery Delay Title = "Delivery Delay Days by " & SWITCH(SELECTEDVALUE('CC Dup Parameter'[CC Dup Parameter Order]), 0, "City", 1, "Category")`
 
+---
+
+## Phase 4: Dashboard Design
+
+### Color Pallet:
+
+Color Hex Codes: `#0077B6 (Dark), #00B4D8 (Medium) & #90E0EF (Light)`.
+
+Color Standard Assignment:
+1. City: Ahmedabad: Dark, Surat: Medium & Vadodara: Light.
+2. Product Category: Beverages: Dark, Dairy: Medium & Food: Light.
+3. Delay: 3 Days: Dark, 2 Days: Medium & 1 Day: Light.
+
+### I. Glance at KPIs:
+
+- Created Visual Blocks for `OT %`, `IF %` & `OTIF %` KPIs comprising of 3 components: 
+a. Gauge Chart for the Metric value with target set to the calculated metric target. 
+b. Orders Card shows the total orders for the metric.
+c. Target & Variance Card for the the metric. Variance has been conditionally formatted to Red color for negative values i.e Actual < Target value.
+- Added Info Button to all the KPI Visual Blocks providing a brief explanation for the same.
+- Added Monthly (Mmm YY format) slicer to filter on specific time frame.
+
+### II. Glance at Cities:
+
+- Created Product Category Orders by City - Stacked Bar Chart displaying the split of Order lines per category across the 3 cities.
+- Created a dynamic KPI vs Target by City - Clustered Bar Chart displaying the OT %, IF % & OTIF % KPI values vs targets comparison across the 3 cities. Configured a field parameter:
+`Base KPIs Parameter = {("OT %", NAMEOF('Key Measures'[OT %]), 0), ("IF %", NAMEOF('Key Measures'[IF %]), 1), ("OTIF %", NAMEOF('Key Measures'[OTIF %]), 2)}`
+This parameter was used as a Slicer and as the dynamic X Axis input to change the KPI plotted as per the selection made on the Parameter Slicer.
+- `KPIs vs City Title` Measure was used as a card to display a dynamic title that changes depending on the KPI selected.
+
+### III. Gaze at KPI Trends:
+
+- Configured a field parameter:
+`All KPIs Parameter = {("OT %", NAMEOF('Key Measures'[OT %]), 0), ("IF %", NAMEOF('Key Measures'[IF %]), 1), ("OTIF %", NAMEOF('Key Measures'[OTIF %]), 2), ("LiFR %", NAMEOF('Key Measures'[LiFR %]), 3), ("VoFR %", NAMEOF('Key Measures'[VoFR %]), 4)}`
+This parameter was added as a Slicer and was used as a dynamic Y Axis input for the Line Chart displaying KPI (OT %, IF %, OTIF %, LiFR % & VoFR %) Trend over Time. KPI plotted is as per the selection made on the Parameter Slicer. 
+Target Measures for the corresponding KPIs were added as a Constant Y Axis Reference line. `KPIs Performance Title` Measure was used as a card to display a dynamic title that changes depending on the KPI plotted.
+- Configured a field parameter:
+`CC Parameter = {("City", NAMEOF('dim_customer'[city]), 0), ("Category", NAMEOF('dim_product'[category]), 1)}`
+This parameter was added as a Slicer and was used as a dynamic Legend input for the Ribbon Chart displaying KPI (plotted as per the selection made on the `All KPIs Parameter` Slicer above) Breakdown Trend. 
+Breakdown criteria (City or Category) is based on the selection made on the `CC Parameter` slicer.
+Trend can be drilled down from monthly to weekly to daily levels.
+`KPIs Breakdown Title` Measure was used as a card to display a dynamic title that changes depending on the KPI plotted and Breakdown criteria selected.
+
+### IV. Gaze at Customers:
+
+- Created a Matrix visual displaying the KPIs (OT %, IF %, OTIF %, LiFR % & VoFR %) Breakdown across customers. The visual was conditionally formatted as follows:
+For `OT % / IF % / OTIF %` Metrics: Color becomes darker with favorable lower target variance. 
+For `LiFR % / VoFR %` Metrics: Color becomes darker with favorable higher metric value.
+- Added City Slicer to enable filtering on specific cities.
+- Created a OT % vs IF % Segmentation - Scatter plot for all customers. Two Constant X and Y Axis Reference Lines were added at 50% value to divide the plot in 4 quadrants. Q1 indicates customers with good values across both metrics. Q2 & Q4 indicate customers with issues in one metric i.e either lower InFull % or On Time %. Q3 indicates the customers with bad values across both metrics. Zoom Sliders were added to enable further data drilling.
+
+### V. Gaze at Products:
+
+- Created Visual Blocks for LiFR % & VoFR % KPIs comprising of 2 components: 
+a. Gauge Chart for the Metric value. No target was set as target data not available for these metrics. Info Button was added to provide a brief description for the metric.
+b. Cards showing: Total Order Lines & In Full Order Lines for LiFR % metric and Total Ordered Qty and Total Delivered Qty for VoFR % metric.
+- Created a Matrix visual displaying LiFR % and VoFR % Breakdown by Product Category. Data can be drilled down to Product Type and Product Name levels. Additionally, Sparklines were configured to display the trend over month for both metrics with markers on lowest and highest values.
+- Added Monthly (Mmm YY format) slicer to filter on specific time frame.
+- Created 4 Line & Clustered Column Charts to visualize the LiFR % and VoFR % Trend across City and Product Category along with Total Order Lines (for LiFR %) and Total Ordered Qty (for VoFR %). Four custom blank buttons were created for LiFR % and VoFR % Metrics to act as a toggle to switch between the 2 visual groups using bookmarks: `LiFR % Chart Shown` and `VoFR % Chart Shown`. These bookmarks enable displaying 2 visuals for each metric selected using toggle buttons. Charts can be drilled down at City to Customer and Product Category to Product Type levels.
+
+### VI. Gaze at Customer Lead Times:
+
+- Created a Visual Block for ADDD KPI comprising of 3 components: 
+a. KPI Card for the Metric value. Info Button was added to provide a brief description for the metric. 
+b. Card showing the count of Total Orders that were delayed at any limit.
+c. Individual Cards showing the count of Orders delayed by 1, 2 and 3 days.
+- Configured a field parameter:
+`CC Dup Parameter = {("City", NAMEOF('dim_customer'[city]), 0), ("Category", NAMEOF('dim_product'[category]), 1)}`
+This parameter was added as a Slicer and was used as a dynamic Legend input for the Stacked Bar Chart displaying Total Order Lines by Delivery Delay Days Breakdown. 
+Existing `CC Parameter` was not reused to avoid unintentional filtering due to same parameter being used for 2 slicers at different places.
+Breakdown criteria (City or Category) is based on the selection made on the `CC Dup Parameter` slicer.
+`CC Delivery Delay Title` Measure was used as a card to display a dynamic title that changes depending on the Breakdown criteria selected.
+- Created a Line & Stacked Column chart visualizing the Delivery Delay Days Breakdown and ADDD Metric Trend over customers. Columns have been color coded with No Delay and Early Delivery Order Cases as Neutral colors and Delay Orders as Standard Blue color palette (increasing darkness with higher delay).
+
+---
