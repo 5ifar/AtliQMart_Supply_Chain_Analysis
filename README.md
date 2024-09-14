@@ -34,7 +34,7 @@ AtliQ Mart is currently facing a problem where a few key customers did not exten
 
 The Supply Chain team decided to use a standard approach to measure the service level in which they will measure ‘On-time delivery (OT) %’, ‘In-full delivery (IF) %’, and OnTime in full (OTIF) %’ of the customer orders daily basis against the target service level set for each customer.
 
-Other resources Provided: Relevant Business Knowledge & Metadata. These can be refered from the Assets folder.
+Other resources Provided: Relevant Business Knowledge & Metadata. These files can be refered from the [Assets](https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/tree/main/Assets) folder.
 
 ---
 
@@ -56,7 +56,7 @@ Other resources Provided: Relevant Business Knowledge & Metadata. These can be r
 ## About the Dataset:
 
 ### Data Sources:
-The dataset contains 6 tables in total, all as CSV files namely:
+The [Dataset](https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/tree/main/Dataset) contains 6 tables in total, all as CSV files namely:
 - dim_customer.csv: 35 records | 3 columns
 - dim_date.csv: 183 records | 3 columns
 - dim_product.csv: 18 records | 3 columns
@@ -71,5 +71,10 @@ ROCCC Evaluation:
 - Comprehensiveness: MED - Total 6 Files with a total of around 90 Thousand records were provided. Dataset contains multiple dimension parameters for Customers & Products as well as comprehensive order transaction data.
 - Current: MED - Dataset has FY 2022 data i.e almost 2 years old. So its not very relevant. Any trends observed and insights gained need to be comprehended as a general (not FY-specific) trend.
 - Citation: HIGH - Official citation/reference available.
+
+---
+
+## Data Model:
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Data%20Model/Supply%20Chain%20Analytics%20Data%20Model.PNG" width="100%" height="100%"> </div>
 
 ---
