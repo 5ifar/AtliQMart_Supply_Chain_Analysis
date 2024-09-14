@@ -78,3 +78,27 @@ ROCCC Evaluation:
 <div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Data%20Model/Supply%20Chain%20Analytics%20Data%20Model.PNG" width="100%" height="100%"> </div>
 
 ---
+
+## Project Implementation:
+Please find the documentation links for the project phase-wise implementation below:
+- [Phase 1: ETL with Power Query](https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Project%20Implementation/Documentation.md#phase-1-etl-with-power-query)
+- [Phase 2: Data Modelling](https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Project%20Implementation/Documentation.md#phase-2-data-modelling)
+- [Phase 3: Measures & Calculated Columns](https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Project%20Implementation/Documentation.md#phase-3-measures--calculated-columns)
+  - [Calculated Columns](https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Project%20Implementation/Documentation.md#calculated-columns)
+  - [Measures](https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Project%20Implementation/Documentation.md#measures)
+- [Phase 4: Dashboard Design](https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Project%20Implementation/Documentation.md#phase-4-dashboard-design)
+  - [Color Pallet](https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Project%20Implementation/Documentation.md#color-pallet)
+  - [I. Glance at KPIs](https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Project%20Implementation/Documentation.md#i-glance-at-kpis)
+  - [II. Glance at Cities](https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Project%20Implementation/Documentation.md#ii-glance-at-cities)
+  - [III. Gaze at KPI Trends](https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Project%20Implementation/Documentation.md#iii-gaze-at-kpi-trends)
+  - [IV. Gaze at Customers](https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Project%20Implementation/Documentation.md#iv-gaze-at-customers)
+  - [V. Gaze at Products](https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Project%20Implementation/Documentation.md#v-gaze-at-products)
+  - [VI. Gaze at Customer Lead Times](https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Project%20Implementation/Documentation.md#vi-gaze-at-customer-lead-times)
+
+---
+
+
+
+
+
+
