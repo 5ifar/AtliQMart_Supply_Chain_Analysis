@@ -18,6 +18,7 @@ Please find the sectional links for the project below:
 - [Data Model]()
 - [Project Implementation]()
 - [Supply Chain Analysis Dashboard Overview]()
+- [Data-driven Insights]()
 - [Conclusion]()
 
 ---
@@ -96,6 +97,34 @@ Please find the documentation links for the project phase-wise implementation be
   - [VI. Gaze at Customer Lead Times](https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Project%20Implementation/Documentation.md#vi-gaze-at-customer-lead-times)
 
 ---
+
+## Data-driven Insights:
+
+### 1. Product Category
+
+- Dairy dominates product category orders with 2 times the total orders of Food and Beverages categories combined.
+
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%201%20-%20Product%20Category.PNG" width="50%" height="50%"> </div>
+
+### 2. KPI Performance
+
+- Average OT %, IF % & OTIF % metric levels are alarmingly lower than respective targets.
+
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%202%20-%20KPI%20Performance.PNG" width="50%" height="50%"> </div>
+
+### 3. Top Customers
+
+- Vijay Stores, Rel Fresh, Lotus mart, Propel Mart and Acclaimed Stores are the key customers with individual order lines averaging almost 1.5 times rest of the customers.
+
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%203%20-%20Top%20Customers.PNG" width="50%" height="50%"> </div>
+
+### 4. Monthly KPI Trends
+
+- July 2022 was the only month when all 3 KPIs - OT %, IF % & OTIF % showed improvement compared to previous month while still performing on average 29% lower than respective targets.
+
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%204.1%20-%20Monthly%20KPI%20Trends.PNG" width="50%" height="50%"> </div>
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%204.2%20-%20Monthly%20KPI%20Trends.PNG" width="50%" height="50%"> </div>
+
 
 
 
