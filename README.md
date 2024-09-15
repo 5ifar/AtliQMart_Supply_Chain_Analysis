@@ -125,6 +125,36 @@ Please find the documentation links for the project phase-wise implementation be
 <div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%204.1%20-%20Monthly%20KPI%20Trends.PNG" width="50%" height="50%"> </div>
 <div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%204.2%20-%20Monthly%20KPI%20Trends.PNG" width="50%" height="50%"> </div>
 
+### 5. Daily KPI Trends
+
+- The daily trend of OT % & IF % KPIs is significantly lower than Targets with the highest recorded values of 67.63% (on 15th May 2022 - 18% lower than target) and 65.38 % (on 27th May 2022 - 11% lower than target) respectively.
+- The daily trend of OTIF % KPIs is the worst affected and is alarmingly lower than Target with the highest recorded value of 37.42% (on 28th May 2022 - 28.5% lower than target).
+
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%205.1%20-%20Daily%20KPI%20Trends.PNG" width="50%" height="50%"> </div>
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%205.2%20-%20Daily%20KPI%20Trends.PNG" width="50%" height="50%"> </div>
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%205.3%20-%20Daily%20KPI%20Trends.PNG" width="50%" height="50%"> </div>
+
+### 6. Customer level KPI Trends
+
+- Acclaimed Stores, Coolblue and Lotus Mart customers have contradicting low OT% and OTIF% KPI values compared to rest of the customers.
+
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%206%20-%20Customer%20level%20KPI%20Trends.PNG" width="50%" height="50%"> </div>
+
+**City level Anlysis:**
+- For Ahmedabad city, Lotus Mart and Sorefoz Mart display low values across all KPIs.
+
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%206.1%20-%20Customer%20level%20KPI%20Trends.PNG" width="50%" height="50%"> </div>
+
+- For Surat city, Acclaimed Stores and Info Stores display low values across all KPIs.
+
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%206.2%20-%20Customer%20level%20KPI%20Trends.PNG" width="50%" height="50%"> </div>
+
+- For Vadodara city, Coolblue, Elite Mart and Vijay Stores display low values across all KPIs.
+
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%206.3%20-%20Customer%20level%20KPI%20Trends.PNG" width="50%" height="50%"> </div>
+
+
+
 
 
 
