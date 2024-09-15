@@ -153,11 +153,30 @@ Please find the documentation links for the project phase-wise implementation be
 
 <div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%206.3%20-%20Customer%20level%20KPI%20Trends.PNG" width="50%" height="50%"> </div>
 
+### 7. LiFR% KPI Trend
 
+- Customers Vijay Stores, Lotus Mart, Acclaimed Stores, Coolblue, Elite Mart, Sorefoz Mart & Info stores have lower LiFR% values than average. Out of them Vijay Stores, Lotus Mart & Acclaimed Stores have the largest order lines.
+- Products categories AM Butter and AM Tea have the lowest LiFR% values among others.
 
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%207%20-%20LiFR%25%20KPI%20Trend.PNG" width="50%" height="50%"> </div>
 
+### 8. VoFR% KPI Trend
 
+- Customers Vijay Stores, Lotus Mart, Acclaimed Stores, Coolblue, Elite Mart, Sorefoz Mart & Info stores have lower VoFR% values than average. Out of them Vijay Stores, Lotus Mart & Acclaimed Stores have the largest order quantities.
+- Products category AM Butter has the lowest VoFR% value among others.
 
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%208%20-%20VoFR%25%20KPI%20Trend.PNG" width="50%" height="50%"> </div>
 
+### 9. Order Delays
 
+- Customers experience an average delivery delay of 1.7 days with 50% of the delayed orders being delivered 2-3 days post expected delivery date.
 
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%209%20-%20Order%20Delays.PNG" width="50%" height="50%"> </div>
+
+### 10. Customer level Delay Trend
+
+- Customers Acclaimed Stores, Coolblue and Lotus Mart are the worst affected by delays experiencing delay of more than overall average of 1.7 days. Moreover out of the 75% orders affected by delays, more than 60% of orders are delayed by 2 or 3 days.
+
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%2010%20-%20Customer%20level%20Delay%20Trend.PNG" width="50%" height="50%"> </div>
+
+---
