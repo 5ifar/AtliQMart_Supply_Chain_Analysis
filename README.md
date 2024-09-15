@@ -10,15 +10,15 @@ The entire project has been implemented using Microsoft Power BI Desktop 2.132.1
 ## Contents:
 Please find the sectional links for the project below:
 - [Supply Chain Analysis Live Dashboard Link]()
-- [Project Objective]()
-- [Tools used & Methodologies implemented]()
-- [About the Dataset]()
-  - [Data Sources]()
-  - [Data Integrity]()
-- [Data Model]()
-- [Project Implementation]()
+- [Project Objective](#project-objective)
+- [Tools used & Methodologies implemented](#tools-used)
+- [About the Dataset](#about-the-dataset)
+  - [Data Sources](#data-sources)
+  - [Data Integrity](#data-integrity)
+- [Data Model](#data-model)
+- [Project Implementation](#project-implementation)
 - [Supply Chain Analysis Dashboard Overview]()
-- [Data-driven Insights]()
+- [Data-driven Insights](#data-driven-insights)
 - [Conclusion]()
 
 ---
