@@ -171,7 +171,7 @@ Please find the documentation links for the project phase-wise implementation be
 
 - Customers experience an average delivery delay of 1.7 days with 50% of the delayed orders being delivered 2-3 days post expected delivery date.
 
-<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%209%20-%20Order%20Delays.PNG" width="50%" height="50%"> </div>
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%209%20-%20Order%20Delays.PNG" width="30%" height="30%"> </div>
 
 ### 10. Customer level Delay Trend
 
