@@ -17,7 +17,7 @@ Please find the sectional links for the project below:
   - [Data Integrity](#data-integrity)
 - [Data Model](#data-model)
 - [Project Implementation](#project-implementation)
-- [Supply Chain Analysis Dashboard Overview]()
+- [AtliQ Mart: Supply Chain Analysis Dashboard Overview](#atliq-mart-supply-chain-analysis-dashboard-overview)
 - [Data-driven Insights](#data-driven-insights)
 - [Conclusion]()
 
@@ -95,6 +95,42 @@ Please find the documentation links for the project phase-wise implementation be
   - [IV. Gaze at Customers](https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Project%20Implementation/Documentation.md#iv-gaze-at-customers)
   - [V. Gaze at Products](https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Project%20Implementation/Documentation.md#v-gaze-at-products)
   - [VI. Gaze at Customer Lead Times](https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Project%20Implementation/Documentation.md#vi-gaze-at-customer-lead-times)
+
+---
+
+## AtliQ Mart: Supply Chain Analysis Dashboard Overview:
+
+### I. Glance at KPIs & Cities:
+
+A high-level snapshot of key supply chain KPIs On-Time %, In-Full %, and On-Time & In-Full %, with benchmarking against set Targets.
+
+Comparative analysis of KPI performance vs Targets and breakdown by Cities and Product Categories.
+
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Power%20BI%20Dashboard/Dashboard%20Images/AM%20Supply%20Chain%20Analytics%20-%20Glance%20at%20KPIs%20%26%20Cities.jpg" width="100%" height="100%"> </div>
+
+### II. Gaze at KPI Trends:
+
+An in-depth view of KPI trends, with drill-down capabilities to track performance on a Monthly, Weekly and Daily basis. Further segmentation by Cities and Product Categories, providing a clear understanding of trends over time.
+
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Power%20BI%20Dashboard/Dashboard%20Images/AM%20Supply%20Chain%20Analytics%20-%20Gaze%20at%20KPI%20Trends.jpg" width="100%" height="100%"> </div>
+
+### III. Gaze at Customers:
+
+A comprehensive customer-level breakdown of all 5 KPIs, filterable by Cities. Includes a scatter plot for segmentation, facilitating comparative analysis of On-Time % versus In-Full % for each customer.
+
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Power%20BI%20Dashboard/Dashboard%20Images/AM%20Supply%20Chain%20Analytics%20-%20Gaze%20at%20Customers.jpg" width="100%" height="100%"> </div>
+
+### IV. Gaze at Products:
+
+Detailed analysis of Line Fill Rate % and Volume Fill Rate % KPIs, segmented by Products and Product Categories, with Monthly breakdowns to track performance.
+
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Power%20BI%20Dashboard/Dashboard%20Images/AM%20Supply%20Chain%20Analytics%20-%20Gaze%20at%20Products.jpg" width="100%" height="100%"> </div>
+
+### V. Gaze at Customer Lead Times:
+
+A focused view on Average Days to Delivery (ADDD) KPI, analyzing delayed order trends across Cities and Customers, providing valuable insights into customer lead times.
+
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Power%20BI%20Dashboard/Dashboard%20Images/AM%20Supply%20Chain%20Analytics%20-%20Gaze%20at%20Customer%20Lead%20Times.jpg" width="100%" height="100%"> </div>
 
 ---
 
