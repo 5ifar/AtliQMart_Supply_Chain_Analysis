@@ -19,7 +19,7 @@ Please find the sectional links for the project below:
 - [Project Implementation](#project-implementation)
 - [AtliQ Mart: Supply Chain Analysis Dashboard Overview](#atliq-mart-supply-chain-analysis-dashboard-overview)
 - [Data-driven Insights](#data-driven-insights)
-- [Conclusion]()
+- [Conclusion](#conclusion)
 
 ---
 
@@ -128,7 +128,7 @@ Detailed analysis of Line Fill Rate % and Volume Fill Rate % KPIs, segmented by 
 
 ### V. Gaze at Customer Lead Times:
 
-A focused view on Average Days to Delivery (ADDD) KPI, analyzing delayed order trends across Cities and Customers, providing valuable insights into customer lead times.
+A focused view on Average Days of Delayed Delivery KPI, analyzing delayed order trends across Cities and Customers, providing valuable insights into customer lead times.
 
 <div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Power%20BI%20Dashboard/Dashboard%20Images/AM%20Supply%20Chain%20Analytics%20-%20Gaze%20at%20Customer%20Lead%20Times.jpg" width="100%" height="100%"> </div>
 
@@ -214,5 +214,15 @@ A focused view on Average Days to Delivery (ADDD) KPI, analyzing delayed order t
 - Customers Acclaimed Stores, Coolblue and Lotus Mart are the worst affected by delays experiencing delay of more than overall average of 1.7 days. Moreover out of the 75% orders affected by delays, more than 60% of orders are delayed by 2 or 3 days.
 
 <div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Insight%20Images/Insight%2010%20-%20Customer%20level%20Delay%20Trend.PNG" width="50%" height="50%"> </div>
+
+---
+
+## Conclusion:
+
+The AtliQ Mart: Supply Chain Analysis Power BI Dashboard offers a comprehensive, data-driven approach to understanding key performance metrics across Cities, Products and Customers. It provides an in-depth view of KPIs such as On-Time %, In-Full %, On-Time & In-Full % and Average Days of Delayed Delivery, enabling stakeholders to track performance trends over time and benchmark them against targets.
+
+The detailed breakdown of Customer and Product performance combined with Trend analysis, offers valuable insights into areas requiring optimization. This analysis helps identify opportunities for improving supply chain efficiency, enhancing customer satisfaction and meeting delivery expectations. The ability to filter data at various levels empowers decision-makers to take targeted actions to drive operational improvements and achieve strategic goals.
+
+This dashboard ultimately provides AtliQ Mart with a powerful tool for continuous performance monitoring and process optimization, ensuring the company remains competitive in its supply chain management practices.
 
 ---
