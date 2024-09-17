@@ -11,7 +11,7 @@ The entire project has been implemented using Microsoft Power BI Desktop 2.132.1
 
 ## Contents:
 Please find the sectional links for the project below:
-- [Supply Chain Analysis Live Dashboard Link]()
+- [Supply Chain Analysis Live Dashboard Link](https://mavenanalytics.io/project/19692)
 - [Project Objective](#project-objective)
 - [Tools used & Methodologies implemented](#tools-used)
 - [About the Dataset](#about-the-dataset)
@@ -25,7 +25,7 @@ Please find the sectional links for the project below:
 
 ---
 
-## [AtliQ Mart: Supply Chain Analysis Live Dashboard Link]()
+## [AtliQ Mart: Supply Chain Analysis Live Dashboard Link](https://mavenanalytics.io/project/19692)
 
 ---
 
