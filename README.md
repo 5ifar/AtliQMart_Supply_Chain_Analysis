@@ -1,5 +1,7 @@
 # <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/AtliQ%20Mart%20Logo.png" width="4%" height="4%"> AtliQ Mart: Supply Chain Analysis
 
+<div align="center"> <img src="https://github.com/5ifar/AtliQMart_Supply_Chain_Analysis/blob/main/Assets/Supply%20Chain%20Analysis%20Project%20Thumbnail%2BLogo.png" width="100%" height="100%"> </div>
+
 This repository serves as my documentation for the AtliQ Mart: Supply Chain Analysis - Power BI Project.
 It was created as part of [Resume Project Challenge 2: Generate Insights to Solve a Supply Chain Issue in the FMCG domain](https://codebasics.io/challenge/codebasics-resume-project-challenge/5) by [Codebasics](https://codebasics.io/).
 
