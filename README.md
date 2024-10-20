@@ -221,10 +221,10 @@ A focused view on Average Days of Delayed Delivery KPI, analyzing delayed order 
 
 ## Conclusion:
 
-The AtliQ Mart: Supply Chain Analysis Power BI Dashboard offers a comprehensive, data-driven approach to understanding key performance metrics across Cities, Products and Customers. It provides an in-depth view of KPIs such as On-Time %, In-Full %, On-Time & In-Full % and Average Days of Delayed Delivery, enabling stakeholders to track performance trends over time and benchmark them against targets.
+The AtliQ Mart: Supply Chain Analysis Power BI Report offers a comprehensive, data-driven approach to understanding key performance metrics across Cities, Products and Customers. It provides an in-depth view of KPIs such as On-Time %, In-Full %, On-Time & In-Full % and Average Days of Delayed Delivery, enabling stakeholders to track performance trends over time and benchmark them against targets.
 
 The detailed breakdown of Customer and Product performance combined with Trend analysis, offers valuable insights into areas requiring optimization. This analysis helps identify opportunities for improving supply chain efficiency, enhancing customer satisfaction and meeting delivery expectations. The ability to filter data at various levels empowers decision-makers to take targeted actions to drive operational improvements and achieve strategic goals.
 
-This dashboard ultimately provides AtliQ Mart with a powerful tool for continuous performance monitoring and process optimization, ensuring the company remains competitive in its supply chain management practices.
+This report ultimately provides AtliQ Mart with a powerful tool for continuous performance monitoring and process optimization, ensuring the company remains competitive in its supply chain management practices.
 
 ---
