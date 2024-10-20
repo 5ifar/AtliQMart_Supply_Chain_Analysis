@@ -11,7 +11,7 @@ The entire project has been implemented using Microsoft Power BI Desktop 2.132.1
 
 ## Contents:
 Please find the sectional links for the project below:
-- [Supply Chain Analysis Live Dashboard Link](https://mavenanalytics.io/project/19692)
+- [Supply Chain Analysis Live Report Link](https://mavenanalytics.io/project/19692)
 - [Project Objective](#project-objective)
 - [Tools used & Methodologies implemented](#tools-used)
 - [About the Dataset](#about-the-dataset)
@@ -19,13 +19,13 @@ Please find the sectional links for the project below:
   - [Data Integrity](#data-integrity)
 - [Data Model](#data-model)
 - [Project Implementation](#project-implementation)
-- [AtliQ Mart: Supply Chain Analysis Dashboard Overview](#atliq-mart-supply-chain-analysis-dashboard-overview)
+- [AtliQ Mart: Supply Chain Analysis Report Overview](#atliq-mart-supply-chain-analysis-report-overview)
 - [Data-driven Insights](#data-driven-insights)
 - [Conclusion](#conclusion)
 
 ---
 
-## [AtliQ Mart: Supply Chain Analysis Live Dashboard Link](https://mavenanalytics.io/project/19692)
+## [AtliQ Mart: Supply Chain Analysis Live Report Link](https://mavenanalytics.io/project/19692)
 
 ---
 
@@ -100,7 +100,7 @@ Please find the documentation links for the project phase-wise implementation be
 
 ---
 
-## AtliQ Mart: Supply Chain Analysis Dashboard Overview:
+## AtliQ Mart: Supply Chain Analysis Report Overview:
 
 ### I. Glance at KPIs & Cities:
 
